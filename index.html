@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Login</h2>
+    <form id="loginForm">
+        <input type="email" id="email" placeholder="Enter email" required>
+        <input type="password" id="password" placeholder="Enter password" required>
+         <!-- ✅ Add this checkbox below the password field -->
+        <label style="display: block; margin: 8px 0;">
+        <input type="checkbox" id="showPassword"> Show Password
+        </label>
+          <button type="submit">Login</button>
+    </form>
+    <p id="message"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
